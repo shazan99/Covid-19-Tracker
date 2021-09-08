@@ -14,7 +14,7 @@ function InfoBox({title, cases, total}) {
               </Typography> 
             </CardContent> 
         </Card>
-    )
+    );
 }
 
 export default InfoBox
