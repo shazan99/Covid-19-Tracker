@@ -1,5 +1,5 @@
 import React from "react";
-import { MapContainer as LeafletMap, TileLayer } from "react-leaflet";
+import { MapContainer as LeafletMap, TileLayer } from "react-leaflet"; //Map doesn't work in new version of Leaflet
 import "./Map.css";
 import { showDataOnMap } from "./util";
 
