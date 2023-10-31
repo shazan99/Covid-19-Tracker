@@ -20,7 +20,7 @@ function App() {
   const [casesType, setCasesType] = useState("cases");
 
   useEffect(() => {
-    fetch("https://disease.sh/v3/covid-19/all")
+    fetch("https://api.covidtracking.com")
     .then((response) => response.json())
     .then((data) => {
       setCountryInfo(data);
